@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 )
 
 // TestRateLimiter_Flaky demonstrates the original flaky test approach.

@@ -45,3 +45,6 @@ clockz
 
 # GoReleaser output directory
 .dist/
+
+# Claude
+.claude/

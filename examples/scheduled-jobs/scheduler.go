@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 )
 
 // Job represents a scheduled task
@@ -131,7 +131,7 @@ func (s *Scheduler) AddJobWithRetry(id string, schedule Schedule, task func() er
 // AddDaily adds a job that runs daily at specified time
 func (s *Scheduler) AddDaily(timeStr string, task func() error) {
 	var hour, minute int
-	fmt.Sscanf(timeStr, "%d:%d", &hour, &minute)
+	_, _ = fmt.Sscanf(timeStr, "%d:%d", &hour, &minute) //nolint:errcheck
 	
 	schedule := DailySchedule{Hour: hour, Minute: minute}
 	s.AddJob(fmt.Sprintf("daily-%s", timeStr), schedule, task)

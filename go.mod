@@ -1,4 +1,4 @@
-module github.com/zoobzio/clockz
+module github.com/zoobz-io/clockz
 
 go 1.24
 

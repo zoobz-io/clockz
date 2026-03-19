@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 )
 
 // TestEventBuffer_Flaky shows the classic timeout testing problem

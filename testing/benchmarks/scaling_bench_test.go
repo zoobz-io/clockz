@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 )
 
 // BenchmarkWaiterScaling exposes the O(n log n) sort bottleneck in setTimeLocked.

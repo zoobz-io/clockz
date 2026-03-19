@@ -79,7 +79,7 @@ changelog:
 # Release configuration
 release:
   github:
-    owner: zoobzio
+    owner: zoobz-io
     name: clockz
   
   # Release name template
@@ -103,7 +103,7 @@ release:
     ### Installation
     
     ```bash
-    go get github.com/zoobzio/clockz@v{{ .Version }}
+    go get github.com/zoobz-io/clockz@v{{ .Version }}
     ```
     
     ### Requirements
@@ -113,8 +113,8 @@ release:
   footer: |
     ---
     
-    **Full Documentation:** https://github.com/zoobzio/clockz/tree/v{{ .Version }}/README.md
-    **Testing Guide:** https://github.com/zoobzio/clockz/tree/v{{ .Version }}/testing
+    **Full Documentation:** https://github.com/zoobz-io/clockz/tree/v{{ .Version }}/README.md
+    **Testing Guide:** https://github.com/zoobz-io/clockz/tree/v{{ .Version }}/testing
     
     Thanks to all contributors!
 
