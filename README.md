@@ -1,13 +1,13 @@
 # clockz
 
-[![CI Status](https://github.com/zoobzio/clockz/workflows/CI/badge.svg)](https://github.com/zoobzio/clockz/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/zoobzio/clockz/graph/badge.svg?branch=main)](https://codecov.io/gh/zoobzio/clockz)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zoobzio/clockz)](https://goreportcard.com/report/github.com/zoobzio/clockz)
-[![CodeQL](https://github.com/zoobzio/clockz/workflows/CodeQL/badge.svg)](https://github.com/zoobzio/clockz/security/code-scanning)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zoobzio/clockz.svg)](https://pkg.go.dev/github.com/zoobzio/clockz)
-[![License](https://img.shields.io/github/license/zoobzio/clockz)](LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobzio/clockz)](go.mod)
-[![Release](https://img.shields.io/github/v/release/zoobzio/clockz)](https://github.com/zoobzio/clockz/releases)
+[![CI Status](https://github.com/zoobz-io/clockz/workflows/CI/badge.svg)](https://github.com/zoobz-io/clockz/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/zoobz-io/clockz/graph/badge.svg?branch=main)](https://codecov.io/gh/zoobz-io/clockz)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zoobz-io/clockz)](https://goreportcard.com/report/github.com/zoobz-io/clockz)
+[![CodeQL](https://github.com/zoobz-io/clockz/workflows/CodeQL/badge.svg)](https://github.com/zoobz-io/clockz/security/code-scanning)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zoobz-io/clockz.svg)](https://pkg.go.dev/github.com/zoobz-io/clockz)
+[![License](https://img.shields.io/github/license/zoobz-io/clockz)](LICENSE)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobz-io/clockz)](go.mod)
+[![Release](https://img.shields.io/github/v/release/zoobz-io/clockz)](https://github.com/zoobz-io/clockz/releases)
 
 Type-safe clock abstractions for Go with zero dependencies.
 
@@ -37,7 +37,7 @@ No sleeps. No flaky timeouts. Time moves when you say so.
 ## Installation
 
 ```bash
-go get github.com/zoobzio/clockz
+go get github.com/zoobz-io/clockz
 ```
 
 Requires Go 1.24+
@@ -52,7 +52,7 @@ import (
     "fmt"
     "time"
 
-    "github.com/zoobzio/clockz"
+    "github.com/zoobz-io/clockz"
 )
 
 type Service struct {
